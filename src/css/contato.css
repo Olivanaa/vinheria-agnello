@@ -1,0 +1,100 @@
+.cabecalho{
+    position: relative;
+}
+
+.contato {
+    position: relative;
+    width: 100%;
+    min-height: 900px;
+    text-align: center;
+}
+
+.contato-container{   
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 50%;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.imagem-contato{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%; 
+    height: 100%;
+}
+
+
+.contato img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.contato-container h1 {
+    color: #5E1914;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contato-container p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contato-container form {
+    background-color: #faf3e6;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-top: 5px solid #8B0000;
+    align-items: center;
+}
+
+.contato-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #5E1914;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.contato-container input,
+.contato-container textarea {
+    background-color: #f8f4ec;
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #d4c9b8;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.contato-container button {
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.contato-container button:hover {
+    background-color: #6d0000;
+}

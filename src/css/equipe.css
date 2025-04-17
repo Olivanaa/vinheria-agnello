@@ -1,0 +1,75 @@
+.equipe{
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+.equipe h1 {
+    color: #5E1914;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#equipe-giulio{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    background-color: #f3ede3;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 5px solid #f0e6d6;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+
+}
+.equipe-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.membro-equipe {
+    display: inline-block;
+    text-align: center;
+    width: 44%;
+    margin: 3%;
+    vertical-align: top;
+    background-color: #f3ede3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 5px solid #f0e6d6;
+    max-width: 550px;
+    padding: 20px;
+    min-height: 680px; 
+}
+
+
+.membro-equipe h2, #equipe-giulio h2 {
+    color: #5E1914;
+    font-size: 25px;
+    margin: 20px 0 10px;
+}
+
+.membro-equipe img, #equipe-giulio img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f0e6d6;
+    display: block;
+    margin: 0 auto;
+}
+
+.membro-equipe p, #equipe-giulio p{
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px auto 0;
+}
