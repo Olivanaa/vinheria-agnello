@@ -1,0 +1,150 @@
+/* Global */
+
+.navbar a {
+    transition: color 0.3 ease;
+}
+
+.navbar a:hover{
+    color: #d4c9b8;
+}
+
+/* Home */
+
+.newsletter h2::after {
+    content: '📬 ';
+}
+
+.destaque-item img {
+    transition: transform 0.3s ease;
+}
+
+.destaque-item img:hover {
+    transform: scale(1.05);
+}
+
+.newsletter button {
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #6d0000;
+}
+
+.newsletter input:focus {
+    outline: none;
+    border-color: #ad1409;
+    background-color: #fff9f6;
+    transition: all 0.3s ease;
+}
+
+.newsletter input[type=email]:invalid{
+    color: red;
+}
+.newsletter input::placeholder{
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* Sobre */
+
+.img-sobre {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-sobre:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sobre h1 {
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Produtos */
+.produtos h1{
+    animation: fadeIn 1s ease-out;
+}
+
+table th:nth-child(1),
+table td:nth-child(1) { width: 18%; } 
+table th:nth-child(2),
+table td:nth-child(2) { width: 8%; }  
+table th:nth-child(3),
+table td:nth-child(3) { width: 8%; }  
+table th:nth-child(4),
+table td:nth-child(4) {               
+    width: 10%;
+    white-space: nowrap;
+}
+table th:nth-child(5),
+table td:nth-child(5) { width: 34%; } 
+table th:nth-child(6),
+table td:nth-child(6) { width: 20%; } 
+
+table tr:nth-child(even) {
+    background-color: #faf7f2;
+}
+
+table tr:hover {
+    background-color: #f5efe6;
+}
+
+table th:hover{
+    color: #d4c9b8;
+}
+
+/* Galeria */
+
+.galeria-imagens figure:hover img {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.galeria h1{
+    animation: fadeIn 1s ease-out;
+}
+
+/* Equipe */
+.equipe h1{
+    animation: fadeIn 1s ease-out;
+}
+
+.membro-equipe:hover, #equipe-giulio:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+/* Contato */
+    
+.contato-container button button {
+    transition: background-color 0.3s ease;
+}
+
+.contato-container button:hover {
+    background-color: #6d0000;
+}
+
+.contato-container input:focus, .contato-container textarea:focus {
+    outline: none;
+    border-color: #ad1409;
+    background-color: #fff9f6;
+    transition: all 0.3s ease;
+}
+
+.contato-container input[type=email]:invalid{
+    color: red;
+}
+
+.contato-container input::placeholder, .contato-container textarea::placeholder{
+    font-style: italic;
+    font-size: 16px;
+}

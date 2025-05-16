@@ -183,11 +183,9 @@
     font-size: 15px;
     font-weight: bold;
     margin-top: 10px;
+    cursor: pointer;
 }
 
-.newsletter button:hover {
-    background-color: #6d0000;
-}
 
 
 
